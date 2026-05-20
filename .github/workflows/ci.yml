@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    name: Smoke tests
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - relativity-black-hole/mercury-precession
+          - relativity-black-hole/kerr-qnm
+          - cosmology/friedmann-solver
+          - cosmology/cmb-power-spectrum
+          - gravitational-waves/pn-waveform
+          - gravitational-waves/bssn-solver
+          - modified-gravity-dark-sector/fR-gravity
+          - modified-gravity-dark-sector/quintessence
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install project
+        working-directory: ${{ matrix.project }}
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+          python -m pip install -e .
+
+      - name: Run tests
+        working-directory: ${{ matrix.project }}
+        run: python -m pytest tests -q

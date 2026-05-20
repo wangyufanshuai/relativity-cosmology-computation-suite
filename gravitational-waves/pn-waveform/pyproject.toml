@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pn-waveform"
+version = "0.1.0"
+description = "Post-Newtonian gravitational wave waveform template library — TaylorT1-T4, EOB, IMR"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.11", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
