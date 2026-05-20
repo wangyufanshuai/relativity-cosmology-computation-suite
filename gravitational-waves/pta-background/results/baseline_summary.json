@@ -1,0 +1,26 @@
+{
+  "run": "baseline-v1",
+  "models": [
+    {
+      "source": "phase-transition-proxy",
+      "amplitude": 8e-16,
+      "gamma": 3.0,
+      "class": "blue-or-flat-source-like",
+      "loglike": -206.04500000000002
+    },
+    {
+      "source": "smbh-binary",
+      "amplitude": 2e-15,
+      "gamma": 4.333333333333333,
+      "class": "smbh-binary-like",
+      "loglike": -217.42985252486665
+    },
+    {
+      "source": "cosmic-string-proxy",
+      "amplitude": 1.3e-15,
+      "gamma": 5.2,
+      "class": "red-early-universe-like",
+      "loglike": -243.0242882181741
+    }
+  ]
+}

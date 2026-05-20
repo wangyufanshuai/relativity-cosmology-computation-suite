@@ -1,0 +1,29 @@
+{
+  "run": "smoke",
+  "best_fit": {
+    "amplitude": 2e-15,
+    "gamma": 4.333333333333333,
+    "loglike": -0.0,
+    "class": "smbh-binary-like"
+  },
+  "candidates": [
+    {
+      "amplitude": 1.5e-15,
+      "gamma": 4.333333333333333,
+      "loglike": -90.43103966093142,
+      "class": "smbh-binary-like"
+    },
+    {
+      "amplitude": 2e-15,
+      "gamma": 4.333333333333333,
+      "loglike": -0.0,
+      "class": "smbh-binary-like"
+    },
+    {
+      "amplitude": 2e-15,
+      "gamma": 5.5,
+      "loglike": -894.7542296335084,
+      "class": "red-early-universe-like"
+    }
+  ]
+}

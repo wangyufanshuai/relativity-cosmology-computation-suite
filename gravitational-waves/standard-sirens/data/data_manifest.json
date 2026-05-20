@@ -1,0 +1,11 @@
+{
+  "project": "standard-sirens",
+  "version_lock": "2026-05-20",
+  "sources": [
+    {
+      "name": "GWOSC open gravitational-wave data",
+      "url": "https://gwosc.org/",
+      "status": "manual-review-required"
+    }
+  ]
+}

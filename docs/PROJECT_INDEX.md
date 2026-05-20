@@ -44,6 +44,9 @@
 | `halo-model` | Halo model calculations |
 | `sn-cosmology` | Supernova cosmology fitting |
 | `bao-analyzer` | BAO correlation and power-spectrum analysis |
+| `joint-dark-energy-inference` | DESI/SN/CMB-style dark-energy joint likelihoods and model comparison |
+| `h0-tension` | Gaussian H0 tension metrics and combined constraints |
+| `cmb-compressed-likelihoods` | Fast compressed CMB distance-prior likelihood blocks |
 
 ## Gravitational Waves
 
@@ -58,6 +61,8 @@
 | `pulsar-magnetosphere` | Pulsar magnetosphere simulations |
 | `grb-jet` | Gamma-ray burst jet modeling |
 | `tidal-disruption` | Tidal disruption event modeling |
+| `pta-background` | Nanohertz stochastic gravitational-wave background model comparison |
+| `standard-sirens` | Standard-siren H0 and dark-energy inference utilities |
 
 ## Modified Gravity And Dark Sector
 
@@ -71,3 +76,4 @@
 | `axion-field` | Axion field dynamics |
 | `quintessence` | Quintessence dark-energy evolution |
 | `chameleon-field` | Chameleon fields and fifth-force constraints |
+| `cosmic-string-constraints` | Cosmic-string stochastic-background constraint proxies |

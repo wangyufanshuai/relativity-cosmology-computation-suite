@@ -1,0 +1,38 @@
+{
+  "run": "baseline-v1",
+  "inputs": [
+    {
+      "label": "local-distance-ladder",
+      "mean": 73.0,
+      "sigma": 1.0
+    },
+    {
+      "label": "early-universe",
+      "mean": 67.4,
+      "sigma": 0.5
+    },
+    {
+      "label": "standard-siren",
+      "mean": 70.0,
+      "sigma": 3.0
+    }
+  ],
+  "local_vs_early": {
+    "local": "local-distance-ladder",
+    "early": "early-universe",
+    "delta_h0": 5.599999999999994,
+    "sigma": 5.008792269599524
+  },
+  "siren_vs_early": {
+    "local": "standard-siren",
+    "early": "early-universe",
+    "delta_h0": 2.5999999999999943,
+    "sigma": 0.8548747339878561
+  },
+  "siren_vs_local": {
+    "local": "standard-siren",
+    "early": "local-distance-ladder",
+    "delta_h0": -3.0,
+    "sigma": 0.9486832980505138
+  }
+}

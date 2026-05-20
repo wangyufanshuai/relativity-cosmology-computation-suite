@@ -1,0 +1,26 @@
+{
+  "project": "joint-dark-energy-inference",
+  "version_lock": "2026-05-20",
+  "sources": [
+    {
+      "name": "DESI DR2 BAO and cosmology chains",
+      "url": "https://www.desi.lbl.gov/2025/10/06/desi-dr2-cosmology-chains-and-data-products-released/",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "Pantheon+ / SH0ES",
+      "url": "https://pantheonplussh0es.github.io/",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "Planck Legacy Archive likelihood",
+      "url": "https://wiki.cosmos.esa.int/planck-legacy-archive/index.php/CMB_spectrum_%26_Likelihood_Code",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "ACT DR6 lensing likelihood",
+      "url": "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_info.html",
+      "status": "manual-review-required"
+    }
+  ]
+}

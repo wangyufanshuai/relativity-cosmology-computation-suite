@@ -1,0 +1,15 @@
+{
+  "run": "smoke",
+  "model": "flat-wcdm-grid",
+  "best_fit": {
+    "h0": 70.0,
+    "omega_m": 0.3,
+    "w0": -1.0,
+    "wa": 0.0
+  },
+  "chi2": 0.0,
+  "blocks": [
+    "toy-bao",
+    "toy-supernovae"
+  ]
+}

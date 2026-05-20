@@ -1,0 +1,11 @@
+{
+  "project": "pta-background",
+  "version_lock": "2026-05-20",
+  "sources": [
+    {
+      "name": "NANOGrav 15-year data set",
+      "url": "https://nanograv.org/news/15yrDataSet",
+      "status": "manual-review-required"
+    }
+  ]
+}

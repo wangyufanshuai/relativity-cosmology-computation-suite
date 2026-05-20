@@ -1,0 +1,21 @@
+{
+  "project": "h0-tension",
+  "version_lock": "2026-05-20",
+  "sources": [
+    {
+      "name": "Pantheon+ / SH0ES",
+      "url": "https://pantheonplussh0es.github.io/",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "Planck Legacy Archive likelihood",
+      "url": "https://wiki.cosmos.esa.int/planck-legacy-archive/index.php/CMB_spectrum_%26_Likelihood_Code",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "GWOSC open gravitational-wave data",
+      "url": "https://gwosc.org/",
+      "status": "optional"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "run": "baseline-v1",
+  "source": "toy_posterior_summary.json",
+  "n_events": 2,
+  "h0_mean": 70.0,
+  "h0_sigma": 2.923818207527814
+}

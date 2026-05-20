@@ -2,7 +2,7 @@
 
 A monorepo of Python computation projects for general relativity, black-hole physics, cosmology, gravitational-wave numerics, modified gravity, and dark-sector models.
 
-This repository currently contains 52 independently installable Python projects. Each project keeps its own `pyproject.toml`, `src/` package layout, and pytest suite.
+This repository currently contains 58 independently installable Python projects. Each project keeps its own `pyproject.toml`, `src/` package layout, and pytest suite.
 
 ## Repository Layout
 
@@ -52,17 +52,23 @@ Representative smoke projects:
 - `gravitational-waves/bssn-solver`
 - `modified-gravity-dark-sector/fR-gravity`
 - `modified-gravity-dark-sector/quintessence`
+- `cosmology/joint-dark-energy-inference`
+- `gravitational-waves/pta-background`
+- `modified-gravity-dark-sector/cosmic-string-constraints`
 
 ## Project Index
 
 See [docs/PROJECT_INDEX.md](docs/PROJECT_INDEX.md).
+
+## Research Roadmap
+
+See [docs/NATURE_RESEARCH_ROADMAP.md](docs/NATURE_RESEARCH_ROADMAP.md) for the 12-month data+theory program centered on DESI/SN/CMB dark energy, PTA backgrounds, and QFT phase-transition gravitational waves.
 
 ## Deferred Projects
 
 The following planned projects were intentionally not included in this first repository state:
 
 - `reheating-simulator`: directory existed locally but had no source files, tests, or `pyproject.toml`.
-- `h0-tension`: directory existed locally but had no source files, tests, or `pyproject.toml`.
 - `spectral-distortions`: directory was not present in the local workspace.
 
 ## License

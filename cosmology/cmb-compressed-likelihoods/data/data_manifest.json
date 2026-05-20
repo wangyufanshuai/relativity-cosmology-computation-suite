@@ -1,0 +1,16 @@
+{
+  "project": "cmb-compressed-likelihoods",
+  "version_lock": "2026-05-20",
+  "sources": [
+    {
+      "name": "Planck Legacy Archive likelihood",
+      "url": "https://wiki.cosmos.esa.int/planck-legacy-archive/index.php/CMB_spectrum_%26_Likelihood_Code",
+      "status": "manual-review-required"
+    },
+    {
+      "name": "ACT DR6 lensing likelihood",
+      "url": "https://lambda.gsfc.nasa.gov/product/act/actadv_dr6_lensing_lh_info.html",
+      "status": "manual-review-required"
+    }
+  ]
+}

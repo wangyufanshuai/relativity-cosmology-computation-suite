@@ -1,0 +1,19 @@
+{
+  "run": "smoke",
+  "events": [
+    {
+      "name": "toy-a",
+      "redshift": 0.01,
+      "luminosity_distance_mpc": 42.827494,
+      "distance_sigma_mpc": 4.0
+    },
+    {
+      "name": "toy-b",
+      "redshift": 0.02,
+      "luminosity_distance_mpc": 85.654988,
+      "distance_sigma_mpc": 4.0
+    }
+  ],
+  "h0_mean": 70.0,
+  "h0_sigma": 2.923818207527814
+}

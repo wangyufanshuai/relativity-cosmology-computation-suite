@@ -1,0 +1,6 @@
+{
+  "measurements": [
+    {"redshift": 0.5, "dv_over_rd": 12.75, "sigma": 0.12},
+    {"redshift": 1.0, "dv_over_rd": 22.85, "sigma": 0.18}
+  ]
+}
